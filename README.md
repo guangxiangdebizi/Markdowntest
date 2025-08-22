@@ -2,7 +2,7 @@
 ---
 
 ## 📈 折线图
-```markdown
+
 ```mermaid
 chart
   title: 网站流量
