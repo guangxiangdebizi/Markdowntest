@@ -1,16 +1,17 @@
 
 ---
 
-## 📈 折线图
-
+## 📊 柱状图 (Mermaid Beta)
+Mermaid 新版支持 `chart` 语法，可以画柱状图 / 折线图：  
+```markdown
 ```mermaid
 chart
-  title: 网站流量
-  type: line
-  xAxis: 周次
-  yAxis: PV(万)
+  title: 每月销售额
+  type: bar
+  xAxis: 月份
+  yAxis: 销售额(万元)
   series:
-    - title: 移动端
-      data: 30,40,35,50,60
-    - title: PC端
-      data: 20,25,22,30,35
+    - title: 产品A
+      data: 10,20,30,25,40
+    - title: 产品B
+      data: 15,25,20,35,30
