@@ -1,9 +1,3 @@
-
----
-
-## 📊 柱状图 (Mermaid Beta)
-Mermaid 新版支持 `chart` 语法，可以画柱状图 / 折线图：  
-```markdown
 ```mermaid
 chart
   title: 每月销售额
